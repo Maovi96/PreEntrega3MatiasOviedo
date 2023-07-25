@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeon 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>DUNGEON 3</h1>
+    <p>Ingresa tu nombre:</p>
+    <input type="text" id="nombreJugador" />
+    <button id="elegirPersonajeBtn">Elige tu personaje</button>
+    <div id="mensaje"></div>
+    <div id="personajeInfo">
+      <h2>Tu personaje:</h2>
+      <p>Nombre: <span id="personaje-nombre"></span></p>
+      <p>Vida: <span id="personaje-vida"></span></p>
+      <p>Ataque: <span id="personaje-ataque"></span></p>
+      <p>Defensa: <span id="personaje-defensa"></span></p>
+    </div>
+    <div id="enemigoInfo">
+      <h2>Monstruo:</h2>
+      <p>Nombre: <span id="enemigo-nombre"></span></p>
+      <p>Vida: <span id="enemigo-vida"></span></p>
+      <p>Ataque: <span id="enemigo-ataque"></span></p>
+      <p>Defensa: <span id="enemigo-defensa"></span></p>
+    </div>
+    <button id="combatir-btn" disabled>Combatir</button>
+    <div id="victorias"></div>
+</body>
+</html>
